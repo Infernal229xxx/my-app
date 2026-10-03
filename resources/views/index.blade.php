@@ -4,21 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная - новости</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        main{
-            flex: 1;
-            padding-top: 100px;
-            text-align: center;
-            font-family: sans-serif;
-        }
-    </style>
+    @vite(['resources/css/app.css', 'resources/css/index.css', 'resources/js/app.js'])
 </head>
 <body>
     <x-header />
